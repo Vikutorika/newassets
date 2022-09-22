@@ -1,0 +1,101 @@
+.code-example {
+  position: relative;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% - 20px);
+  min-height: 100px;
+  border: 1px solid rgba(var(--mwn-color-outline), 0.16);
+  border-radius: 28px;
+  box-sizing: border-box;
+}
+.ripple-box {
+  margin: 8px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(var(--mwn-color-outline));
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.ripple-box.circle {
+  border-radius: 50%;
+}
+mwn-typo[hd-sm] {
+  margin-top: 20px;
+}
+mwn-typo[dp-sm]:not(:first-child) {
+  margin-top: 20px;
+}
+mwn-typo[dp-sm] {
+  margin-bottom: 10px;
+}
+.code-example > mwn-btn,
+.code-example > mwn-card,
+.code-example > mwn-chip,
+.code-example > mwn-fab,
+.code-example > mwn-top-app-bar {
+  margin: 8px;
+}
+mwn-tab > mwn-typo:not(:last-child) {
+  margin: 0 0 1rem 0;
+}
+.code-example > div > mwn-typo {
+  margin: 0 !important;
+}
+
+.padded-container {
+  margin: auto;
+  padding: 24px 48px;
+  max-width: 960px;
+}
+
+/* 表格样式 */
+.table-container {
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: calc(100% - 80px);
+  border: 1px solid rgba(var(--mwn-color-outline), 0.12);
+  border-radius: 24px;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+thead:first-child tr:first-child th,
+tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+td:first-child,
+th:first-child {
+  border-left: 0;
+}
+td:empty,
+th:empty {
+  border-top: 0;
+}
+td,
+th {
+  padding: 8px 12px;
+  border-top: 1px solid rgba(var(--mwn-color-outline), 0.12);
+  border-left: 1px solid rgba(var(--mwn-color-outline), 0.12);
+  vertical-align: middle;
+}
+th {
+  background-color: rgb(var(--mwn-color-primary-container));
+  color: rgb(var(--mwn-color-on-primary-container));
+  font-weight: 500;
+}
