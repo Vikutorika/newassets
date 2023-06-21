@@ -225,6 +225,7 @@ span.js-profile-member-count,
 /* People Counter Element */
 span.Counter#projects-repo-tab-count,
 a#repositories-tab .Counter,
+a#security-tab .Counter,
 a#stars-tab .Counter {
   color: #fff !important;
 }
