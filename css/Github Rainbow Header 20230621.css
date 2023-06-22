@@ -242,7 +242,8 @@ a#stars-tab .Counter {
 }
 
 
-html [type=button] {
+html [type=button],
+.UnderlineNav-item[type=submit]{
   /* Dashboard top button "For You" & "Following"*/
   color: #000 !important;
 }
