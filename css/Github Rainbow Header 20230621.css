@@ -226,7 +226,8 @@ span.js-profile-member-count,
 span.Counter#projects-repo-tab-count,
 a#repositories-tab .Counter,
 a#security-tab .Counter,
-a#stars-tab .Counter {
+a#stars-tab .Counter,
+button.types__StyledButton-sc-ws60qy-0 cFjoJl {
   color: #fff !important;
 }
 
@@ -243,7 +244,8 @@ a#stars-tab .Counter {
 
 
 html [type=button],
-.UnderlineNav-item[type=submit]{
+.UnderlineNav-item[type=submit]
+{
   /* Dashboard top button "For You" & "Following"*/
   color: #000 !important;
 }
