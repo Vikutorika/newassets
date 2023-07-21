@@ -2,7 +2,7 @@
 import json
 
 def update_version(package_file):
-    with open(package_file, 'r') as f:
+    with open(package_file, 'r', encoding='utf8') as f:
         data = json.load(f)
 
     version = data.get('version', '1.0.0')
@@ -12,7 +12,7 @@ def update_version(package_file):
 
     data['version'] = new_version
 
-    with open(package_file, 'w') as f:
+    with open(package_file, 'w', encoding='utf8') as f:
         json.dump(data, f, indent=2)
 
 if __name__ == "__main__":
