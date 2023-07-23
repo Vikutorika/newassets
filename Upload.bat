@@ -22,7 +22,7 @@ if errorlevel 1 (
   git push -f
 
   echo Publishing to npm...
-  npm publish
+  npm publish --proxy http://127.0.0.1:10809
 ) else (
   echo No local changes found. Skipping version update.
 )
