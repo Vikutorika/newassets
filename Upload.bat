@@ -1,5 +1,5 @@
 @echo off
-
+echo Start listening local changes...
 :upload
 git status | find /i "nothing to commit, working tree clean" > nul
 if errorlevel 1 (
