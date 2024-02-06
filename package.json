@@ -1,6 +1,6 @@
 {
   "name": "gamernotitle-oss",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "\u8fd9\u91cc\u5b58\u653e\u7740[\u4e2a\u4eba\u7f51\u7ad9](https://bili33.top)\u6240\u4f7f\u7528\u7684\u90e8\u5206\u8d44\u6e90\u6587\u4ef6",
   "main": "index.js",
   "scripts": {
