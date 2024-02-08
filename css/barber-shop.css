@@ -21,7 +21,9 @@
 }
 
 .pace .pace-progress {
-	background-color: #8e8cd8;
+	/* 进度条颜色是下面这个 */
+	/* background-color: #8e8cd8; */
+	background-color: #d89870;
 	position: fixed;
 	top: 0;
 	bottom: 0;
